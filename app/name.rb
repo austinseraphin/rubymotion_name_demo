@@ -4,6 +4,7 @@ attr_reader :name
 
 def viewDidLoad
 super
+self.title="The Name Game"
 label=UILabel.alloc.initWithFrame(CGRect.make(x: 0, y: 0,
 width: view.frame.width,
 height: view.frame.height/2))
